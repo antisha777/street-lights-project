@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import StreetDetail from './components/StreetDetail';
-import Navigation from './components/Navigation';
+import Dashboard from './components/Dashboard.js';
+import StreetDetail from './components/StreetDetail.js';
+import Navigation from './components/Navigation.js';
 import './App.css';
 
 function App() {
